@@ -1,0 +1,257 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: 0.5s ease-in-out;
+  /* добавим плавность переходов для всех элементов страницы*/
+}
+body {
+  line-height: 1;
+  background: #f7f6f6;
+}
+header:after,
+.container:after,
+footer:after,
+.widget-posts-list li:after,
+#subscribe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* стилевой класс, который управляет шириной контейнера сетки*/
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  min-width: 600px;
+  padding: 0 10px;
+  background: rgba(61, 60, 58, 1);
+}
+#menu {
+  float: right;
+}
+#menu li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 38px;
+}
+#menu a {
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: block;
+  line-height: 50px;
+}
+
+.post-image {
+  padding: 0 45px;
+  margin: 0 auto;
+  height: 500px;
+  position: absolute;
+  overflow: hidden;
+}
+.tittle_me {
+  padding: 500px;
+  font-family: "Gugi";
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: absolute;
+}
+
+.text_aboutme {
+  position: absolute;
+  overflow: hidden;
+  padding: 680px 0;
+  margin: 0 auto;
+  min-width: 600px;
+  font-family: "Gugi";
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.me1 {
+  position: absolute;
+  margin: 0 auto;
+  padding: 750px 700px;
+}
+
+.me2 {
+  position: absolute;
+  margin: 0 auto;
+  padding: 1750px 0;
+}
+
+.text_aboutme2 {
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  padding: 1650px 0;
+  margin: 0 auto;
+  min-width: 600px;
+  font-family: "Gugi";
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.tittle_Skills {
+  padding: 500px;
+  font-family: "Gugi";
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  margin: 2100px auto;
+  overflow: hidden;
+  position: absolute;
+}
+/*
+.csharp {
+  position: absolute;
+  padding: 500px;
+  margin: 2300px 500px;
+}
+
+.cplus {
+  position: absolute;
+  padding: 500px;
+  margin: 2300px 100px;
+}
+
+.ci {
+  position: absolute;
+  padding: 500px;
+  margin: 2300px 0;
+}
+
+.html_ {
+  position: absolute;
+  padding: 500px;
+}
+
+.css_ {
+  position: absolute;
+  padding: 500px;
+}
+
+.js_ {
+  position: absolute;
+  padding: 500px;
+}
+*/
+.hardskills_image {
+  position: absolute;
+  padding: 500px;
+  margin: 2300px -600px;
+}
+
+.tittle_Projects {
+  padding: 500px;
+  font-family: "Gugi";
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  margin: 3300px auto;
+  overflow: hidden;
+  position: absolute;
+}
+
+.first_project {
+  position: absolute;
+  font-family: "Gugi";
+  font-size: 36px;
+  color: #000000;
+  margin: 3950px 500px;
+}
+
+.second_project {
+  position: absolute;
+  font-family: "Gugi";
+  font-size: 36px;
+  color: #000000;
+  margin: 4050px 500px;
+}
+
+.third_project {
+  position: absolute;
+  font-family: "Gugi";
+  font-size: 36px;
+  color: #000000;
+  margin: 4150px 500px;
+}
+
+.video {
+  position: absolute;
+  margin: 4300px 400px;
+}
+
+.tittle_Contacts {
+  padding: 500px;
+  font-family: "Gugi";
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  margin: 4500px auto;
+  overflow: hidden;
+  position: absolute;
+}
+
+.telegram {
+  position: absolute;
+  margin: 5150px 400px;
+}
+
+.vk {
+  position: absolute;
+  margin: 5150px 1000px;
+}
+
+footer {
+  min-width: 200px;
+  padding: 50px 0;
+  margin: 5450px auto;
+  background: #3c3d41;
+  color: white;
+  overflow: hidden;
+}
+.footer-col {
+  float: left;
+}
+.footer-col a {
+  color: white;
+}
+
+.footer-col span {
+  font-size: 35px;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px 0;
+  }
+  #menu {
+    max-height: 0;
+    background: white;
+    float: none;
+    position: absolute;
+    overflow: hidden;
+    top: 63px;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+  }
+  #menu li {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #ebebe3;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  
